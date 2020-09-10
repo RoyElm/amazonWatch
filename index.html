@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/headline.jpg">
+    </header>
+    <div id="page">
+        <div id="imgSrc">
+            <img src="assets/images/blackWatch.png">
+            <div class="centered">
+                <span id="heartBox">
+                    <span id="textHeart">
+                    </span>
+                    <svg class="heart" viewBox="0 0 32 29.6">
+                        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                      c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+                    </svg>
+                </span>
+            </div>
+            <div class="centered">
+                <p class="content"></p>
+            </div>
+        </div>
+        <div id="section">
+            <h1>FitBit 19 - The Smartest Watch</h1>
+            <p>Lorem ipsum dolar lorem ipsum dolar Lorem ipsum dolar lorem ipsum dolar
+                Lorem ipsum dolar lorem ipsum dolar <br> Lorem ipsum dolar lorem ipsum dolar.
+            </p>
+            <h2>Select Color</h2>
+            <p id="colors" onclick="changeColor()">
+                <button value="blue"></button>
+                <button value="purple"></button>
+                <button value="black"></button>
+                <button value="red"></button>
+                <button value="pink"></button>
+            </p>
+            <h2>Features</h2>
+            <p id="features" onclick="changeContent()">
+                <button>Timer</button>
+                <button>Heart Rate</button>
+            </p>
+            <button id="buyNow">Buy Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
